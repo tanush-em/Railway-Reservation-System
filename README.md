@@ -1,24 +1,94 @@
-# Railway-Reservation-System
-This is a very simple TEXT BASED Railway Reservation System in C programming language. It has no GUI, only a CLI (command line interface). It is built as a minor project. All the documentation required are included...
+# Railway Reservation System
 
-## Introduction
-The "Railway Reservation System" mini project is a simple yet effective software solution designed to streamline the process of booking train tickets and managing passenger information. With a user-friendly command-line interface, this system offers passengers the convenience of viewing available trains, reserving seats, and generating tickets effortlessly. The system supports multiple train routes, each with distinct departure and arrival stations, ensuring flexibility for passengers' travel needs.
+[![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)](http://www.open-std.org/jtc1/sc22/wg14/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Key Features
-Train and Station Management:
-The system allows the management of various train routes, each with distinct departure and arrival stations. Administrators can easily add, update, or remove train and station details, ensuring accurate and up-to-date information for travelers.
+A command-line interface (CLI) based Railway Reservation System implemented in C programming language. This system provides essential functionality for booking train tickets and managing passenger information.
 
-Availability Display:
-Passengers can effortlessly view a list of available trains, complete with essential information such as train number, name, origin, destination, total seats, and the number of seats available for booking. This feature enables users to make informed decisions based on their travel preferences.
+## Features
 
-Ticket Booking:
-The system offers a streamlined ticket booking process, where passengers can input their personal details, including name, age, and gender, to reserve seats on their chosen train. The system ensures that the available seats are automatically updated after each successful booking.
+- **Train Management**
+  - View available trains
+  - Check train routes and schedules
+  - Monitor seat availability
 
-Ticket Generation:
-Upon successful booking, the system generates detailed tickets containing essential travel information, including the train's details, departure and arrival stations, passenger's name, age, gender, and assigned seat number.
+- **Booking System**
+  - Reserve tickets
+  - Input passenger details
+  - Automatic seat allocation
 
-Data Validation:
-The system incorporates robust data validation techniques to ensure accurate and error-free input from users, reducing the risk of incorrect information and enhancing the overall user experience.
+- **Information Display**
+  - Train details (number, name, routes)
+  - Available seats
+  - Booking confirmation
 
-User-Friendly Interface:
-The graphical user interface (GUI) is designed for simplicity and ease of use, making the ticket booking process accessible to individuals of varying technological backgrounds.
+- **Data Validation**
+  - Input verification
+  - Error handling
+  - Booking validation
+
+## Prerequisites
+
+- GCC Compiler
+- Make (optional, for building)
+- Terminal or Command Prompt
+
+## Usage
+
+### Main Menu Options
+
+1. **View Available Trains**
+   - Lists all trains with their details
+   - Shows available seats and routes
+
+2. **Book a Ticket**
+   - Enter passenger details
+   - Select train and seat
+   - Receive booking confirmation
+
+3. **View Booking Details**
+   - Check existing bookings
+   - View ticket information
+
+4. **Exit System**
+   - Safe termination of program
+
+### Example Usage
+
+```plaintext
+Welcome to Railway Reservation System
+====================================
+1. View Available Trains
+2. Book a Ticket
+3. View Booking Details
+4. Exit
+
+Enter your choice: 1
+
+Available Trains:
+================
+Train No: 1001
+Name: Express Line
+From: City A
+To: City B
+Available Seats: 50
+```
+
+## Known Limitations
+
+- Text-based interface only
+- No persistent database
+- Limited to single-user operation
+- Basic error handling
+
+## Acknowledgments
+
+- C Programming community
+- Contributors and testers
+- Academic project supervisors
+
+---
+
+<div align="center">
+A simple yet effective Railway Reservation System implemented in C
+</div>
